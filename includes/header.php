@@ -5,7 +5,6 @@
 <link href="<?php echo $dominio;?>css/geral.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo $dominio;?>css/slide.css" rel="stylesheet" type="text/css" />
 <link href="https://plus.google.com/u/0/103539467002059704933/" rel="publisher" />
-
 <script>
   (function() {
     var cx = '016196054742490403835:f5xexxyybuk';
@@ -15,7 +14,6 @@
     var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(gcse, s);
   })();
 </script>
-
 <script type="text/javascript">
 window.___gcfg = {lang: 'pt-BR'};
 (function() 
@@ -25,7 +23,6 @@ var s = document.getElementsByTagName("script")[0];
 s.parentNode.insertBefore(po, s);
 })();
 </script>
-
 <script src="<?php echo $dominio;?>js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="<?php echo $dominio;?>js/seosocial.js" type="text/javascript"></script>
 <script type="text/javascript" src="<?php echo $dominio;?>js/jquery.easing.1.3.js"></script>
@@ -33,7 +30,5 @@ s.parentNode.insertBefore(po, s);
 <script type="text/javascript" src="<?php echo $dominio;?>js/dropdown.js"></script>
 <script type="text/javascript" src="<?php echo $dominio;?>js/faq.js"></script>
 <script src="<?php echo $dominio;?>js/slide.js" type="text/javascript"></script>
-
 <link rel="shortcut icon" href="http://www.seomarketing.com.br/imagens/animated_favicon1.gif" />
-
 
