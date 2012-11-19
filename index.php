@@ -32,7 +32,7 @@ $("#feeds").SeoSocial();
             <a href="#" class="cta">Conheça nossos Serviços &raquo;</a> 
         </div>
         <div class="figure">
-            <img src="<?php echo $dominio;?>imagens/INSTITUCIONAL.jpg" alt="" height="494px" width="990px"/>
+            <img src="<?php echo $dominio;?>imagens/INSTITUCIONAL2.jpg" alt="" height="494px" width="990px"/>
         </div>
     </div>
     <div class="item" id="item-1">
