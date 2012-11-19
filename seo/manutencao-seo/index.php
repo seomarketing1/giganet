@@ -14,24 +14,22 @@ include("../../includes/header.php");
 include("../../includes/menu.php");
 ?>
 <div id="seo_content"  class="interna_content">
-    <div class="seo_principal interna_principal">
-    <h1>Manutenção SEO</h1>
-    <h2>O que é? Como funciona?</h2>
-    <p>Muitos são os clientes, profissionais e "entendidos em SEO", que acreditam que o processo de Otimização de Sites consiste apenas na criação de um relatório e da aplicação do mesmo. Leviano engano.</p>
-	<p>Resumindo, não basta apenas otimizar os textos, títulos e etc., é necessário desenvolver uma estratégia de longo prazo que contemple também a manutenção do processo. Mas, por quê?</p>
-    <p>Um ponto fundamental que devemos ter sempre em mente é: Tudo muda, até mesmo os buscadores alteram seus sistemas para oferecer os melhores resultados possíveis aos usuários, e à sua receita, claro. Portanto, é importante monitorar os Search Engines e manter-se atualizado quanto as mudanças efetuadas no sistema de classificação de sites. Como a internet é dinâmica, novos sites são criados todos os dias e em alguns casos, mais bem otimizados que o seu. Estar atento a estes fatores pode fazer toda a diferença entre o sucesso e o fracasso.</p>
-    <p>Ao estabelecer um plano de Manutenção SEO, podemos acompanhar constantemente os resultados obtidos, reescrevendo a estratégia quando os acessos, o posicionamento e o sucesso poderem ser mais facilmente alcançados. </p>
-<?php
+<div class="seo_principal interna_principal">
+ <h1>Manutenção SEO</h1>
+ <h2>O que é? Como funciona?</h2>
+ <p>Muitos são os clientes, profissionais e "entendidos em SEO", que acreditam que o processo de Otimização de Sites consiste apenas na criação de um relatório e da aplicação do mesmo. Leviano engano.</p>
+ <p>Resumindo, não basta apenas otimizar os textos, títulos e etc., é necessário desenvolver uma estratégia de longo prazo que contemple também a manutenção do processo. Mas, por quê?</p>
+ <p>Um ponto fundamental que devemos ter sempre em mente é: Tudo muda, até mesmo os buscadores alteram seus sistemas para oferecer os melhores resultados possíveis aos usuários, e à sua receita, claro. Portanto, é importante monitorar os Search Engines e manter-se atualizado quanto as mudanças efetuadas no sistema de classificação de sites. Como a internet é dinâmica, novos sites são criados todos os dias e em alguns casos, mais bem otimizados que o seu. Estar atento a estes fatores pode fazer toda a diferença entre o sucesso e o fracasso.</p>
+ <p>Ao estabelecer um plano de Manutenção SEO, podemos acompanhar constantemente os resultados obtidos, reescrevendo a estratégia quando os acessos, o posicionamento e o sucesso poderem ser mais facilmente alcançados. </p>
+ <?php
 include("../../includes/base_seo.php");
-?>    
-<a class="contrate" href=""></a>
-<div class="faq_header" style="display:none;">
-<span class="titulo_faq">FAQ</span>
-<span class="subtitulo_faq">Perguntas Frequentes sobre nossos serviços de SEO - otimização de sites para meacanismos de pesquisa</span></div>
-<div id="faq_adwords" style="display:none;"> 
-    <div class="pergunta">
-    	<div class="pergunta_header_box">
-        <!--
+?>
+ <a class="contrate" href=""></a>
+ <div class="faq_header" style="display:none;"> <span class="titulo_faq">FAQ</span> <span class="subtitulo_faq">Perguntas Frequentes sobre nossos serviços de SEO - otimização de sites para meacanismos de pesquisa</span></div>
+ <div id="faq_adwords" style="display:none;">
+  <div class="pergunta">
+   <div class="pergunta_header_box"> 
+    <!--
         	<div class="pergunta_header">Tenho de pagar a SEO Marketing E o Google para serviços de SEO?</div>
             <div class="pergunta_box">
             	<span class="pergunta_icon"></span>
@@ -99,12 +97,9 @@ include("../../includes/base_seo.php");
         <p>Oferecemos relatórios detalhados com a relação de palavras-chave que mais geraram resultado, sugestões constantes de novas palavras-chave a serem trabalhadas, entre muitas outras informações relacionadas aos mecanismos de busca.</p>
         <p>Conhecemos a fundo os mecanismos de busca e seus algoritmos. Estudamos a fundo o seu funcionamento e estamos a par de tudo o que acontece de novo nesta área.</p>
         <br /><p>Precisa de mais informações? <a href="<?php echo $dominio;?>">Entre em contato com a gente</a>, mande uma mensagem para contato@seomarketing.com.br, faça um chat online ou <a href="<?php echo $dominio;?>">preencha o formulário</a> e deixe-nos ajudá-lo a identificar qual dos nossos serviços mais se adaptam às necessidades de sua empresa.</p>--></div>
-    </div>
-
-
+  </div>
+ </div>
 </div>
-
-    </div>
 <?php
 include("../../includes/lateral_seo.php");
 include("../../includes/rodape.php");

@@ -14,30 +14,30 @@ include("../../includes/header.php");
 include("../../includes/menu.php");
 ?>
 <div id="adwords_content" class="interna_content">
-    <div class="adwords_principal interna_principal">
-    <h1>Yahoo Links Patrocinados</h1>
-    <p>O Yahoo! Search Marketing tem forte alcance e penetração no Brasil. É acessado por mais de 59 milhões de usuários únicos todos os meses, o que corresponde a 71% de todo o universo de internautas brasileiros. Sua estratégia de cobertura e distribuição permite que a busca chegue ao usuário onde quer que ele esteja.</p>
-    <p>A rede Yahoo! Search Market amplia o alcance da busca para outros sites parceiros, como Folha, Bing e IDG Now, o que garante não apenas volume, mas também diversidade de públicos e interesses para você obter o melhor resultado. Ao todo são mais de 60 parceiros criteriosamente selecionados, garantindo que a sua marca seja veiculada em sites relevantes, seguros e de qualidade.</p>
-    <img src="<?php echo $dominio;?>imagens/google-adwords.gif" alt="Google Adwords"/>
-    <p>Uma das principais parcerias que o Yahoo possui em search é com a Microsoft, através do Bing, que permite que cada empresa foque em uma vertente, enriquecendo a experiência geral de busca para o usuário.</p>
-<h3>Vantagens</h3>
-<ul>
-	<li>Aparecer para usuários no momento em que eles procuram por um determinado produto ou serviço;</li>
-	<li>O anunciante só paga quando e se o consumidor clicar no anúncio;</li>
-	<li>Empresas de pequeno a grande porte podem anunciar no Yahoo;</li>
-	<li>Além do Yahoo, os anúncios são veiculados em outros buscadores como Bing, MSN, Altavista entre outros além de sites da rede de conteúdo do Yahoo;</li>
-    </ul>
-<h3>O que fazemos</h3>
-<ul>
-<li>Criação da conta;</li>
-<li>Desenvolvimento da campanha: escolha de palavras-chave e redação de anúncios;</li>
-<li>Gestão de investimento da campanha;</li>
-<li>Auxílio na inserção de tags de monitoramento de conversões;</li>
-<li>Relatórios personalizados;</li>
-<li>Monitoramento contínuo e sugestões de melhoria para as campanhas.</li>
-</ul>   
-
-<!--<div class="balao">
+<div class="adwords_principal interna_principal">
+ <h1>Yahoo Links Patrocinados</h1>
+ <p>O Yahoo! Search Marketing tem forte alcance e penetração no Brasil. É acessado por mais de 59 milhões de usuários únicos todos os meses, o que corresponde a 71% de todo o universo de internautas brasileiros. Sua estratégia de cobertura e distribuição permite que a busca chegue ao usuário onde quer que ele esteja.</p>
+ <p>A rede Yahoo! Search Market amplia o alcance da busca para outros sites parceiros, como Folha, Bing e IDG Now, o que garante não apenas volume, mas também diversidade de públicos e interesses para você obter o melhor resultado. Ao todo são mais de 60 parceiros criteriosamente selecionados, garantindo que a sua marca seja veiculada em sites relevantes, seguros e de qualidade.</p>
+ <img src="<?php echo $dominio;?>imagens/google-adwords.gif" alt="Google Adwords"/>
+ <p>Uma das principais parcerias que o Yahoo possui em search é com a Microsoft, através do Bing, que permite que cada empresa foque em uma vertente, enriquecendo a experiência geral de busca para o usuário.</p>
+ <h3>Vantagens</h3>
+ <ul>
+  <li>Aparecer para usuários no momento em que eles procuram por um determinado produto ou serviço;</li>
+  <li>O anunciante só paga quando e se o consumidor clicar no anúncio;</li>
+  <li>Empresas de pequeno a grande porte podem anunciar no Yahoo;</li>
+  <li>Além do Yahoo, os anúncios são veiculados em outros buscadores como Bing, MSN, Altavista entre outros além de sites da rede de conteúdo do Yahoo;</li>
+ </ul>
+ <h3>O que fazemos</h3>
+ <ul>
+  <li>Criação da conta;</li>
+  <li>Desenvolvimento da campanha: escolha de palavras-chave e redação de anúncios;</li>
+  <li>Gestão de investimento da campanha;</li>
+  <li>Auxílio na inserção de tags de monitoramento de conversões;</li>
+  <li>Relatórios personalizados;</li>
+  <li>Monitoramento contínuo e sugestões de melhoria para as campanhas.</li>
+ </ul>
+ 
+ <!--<div class="balao">
 <div class="balaoa">Você domina todos os aspectos relacionados a links patrocinados?
 Tem certeza que os seus competidores NÃO os dominam?
 </div>
@@ -46,18 +46,15 @@ o Índice de Qualidade dos anúncios?</div>
 </div>
 
 <h2>Dicas Google para escolher sua agência online</h2>
-<iframe width="555" height="315" src="http://www.youtube.com/embed/K1E3CXCYbaU" frameborder="0" allowfullscreen></iframe><br/><br/>-->
-<a class="contrate" href=""></a>
-<?php include("../../includes/base_lp.php");?>
-
-<div class="faq_header" style="display:none;">
-<span class="titulo_faq">FAQ</span>
-<span class="subtitulo_faq"><!--Perguntas Frequentes sobre nossos serviços 
+<iframe width="555" height="315" src="http://www.youtube.com/embed/K1E3CXCYbaU" frameborder="0" allowfullscreen></iframe><br/><br/>--> 
+ <a class="contrate" href=""></a>
+ <?php include("../../includes/base_lp.php");?>
+ <div class="faq_header" style="display:none;"> <span class="titulo_faq">FAQ</span> <span class="subtitulo_faq"><!--Perguntas Frequentes sobre nossos serviços 
 de Administração de Links Patrocinados:--></span></div>
-<div id="faq_adwords" style="display:none;">
- <div class="pergunta">
-    	<div class="pergunta_header_box">
-        	<!--
+ <div id="faq_adwords" style="display:none;">
+  <div class="pergunta">
+   <div class="pergunta_header_box"> 
+    <!--
             <div class="pergunta_header">Qual a vantagem de contratar uma agência para administrar minha campanha de links patrocinados, já que posso contratar diretamente?</div>
             <div class="pergunta_box">
             	<span class="pergunta_icon"></span>
@@ -145,9 +142,9 @@ de Administração de Links Patrocinados:--></span></div>
        <p>Somos focados em Search Engine Marketing. Respiramos isso todos os dias. Montamos nossas estratégias partindo das palavras-chave digitadas por usuários nos mecanismos de busca, e acompanhamos todos os passos dele desde o clique a conclusão de uma meta, que pode ser uma venda, um formulário preenchido, uma página visitada.</p>
        <p>Enviamos relatórios periódicos contendo as palavras-chave que mais geraram resultado, sugestões constantes de novas palavras-chave a serem trabalhadas nas campanhas, desempenho dos anúncios, entre outras informações relacionadas à sua campanha e as novidades nos mecanismos de busca;</p><br/>
        <p>Precisa de mais informações? Fale com a gente e veja qual dos nossos serviços de links patrocinados mais se adaptam às necessidades de sua empresa.</p>--></div>
-    </div>
+  </div>
+ </div>
 </div>
-    </div>
 <?php
 include("../../includes/lateral_lp.php");
 include("../../includes/rodape.php");

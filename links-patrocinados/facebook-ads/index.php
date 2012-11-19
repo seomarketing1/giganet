@@ -15,55 +15,52 @@ include("../../includes/header.php");
 include("../../includes/menu.php");
 ?>
 <div id="adwords_content" class="interna_content">
-    <div class="adwords_principal interna_principal">
-    <h1>Facebook Ads</h1>
-<!--    <h2>O Google AdWords é uma ferramenta de publicidade do Google.</h2>-->
-    <!--<p class="destaque">Multiplique os acessos ao seu site e converta mais visitantes em negócios. Conheça nossos serviços especializados em links patrocinados!</p>-->
-    <p>Com centenas de milhares de usuários ativos, o Facebook é um dos sites mais visitados no mundo. Além do crescimento no mundo todo, os usuários estão se tornando cada vez mais envolvidos. Metade de seus usuários retornam todos os dias e a quantidade de tempo gasto pelas pessoas no Facebook é o triplo do que elas gastam no site número 2 da lista.</p>
-    <p>Assim, os seus clientes estão no Facebook todos os dias, publicando atualizações sobre suas ideias e atividades, etc. Eles estão consumindo informações, fazendo recomendações e compartilhando opiniões uns com os outros. E fazer isso se tornou parte essencial da vida deles.</p>
-    <h2>Por que anunciar no Facebook?</h2>
-    <p>O marketing no Facebook permite se envolver com pessoas com a maior chance de ser interessar pela sua marca. Isso dá a elas a oportunidade de levar sua marca para a vida delas. E dá a você a oportunidade de criar conversas interativas e contínuas com os seus clientes existentes e em potencial.</p>
-    <p>No centro do Facebook está o gráfico social, um mapa de pessoas e suas conexões com tudo e todos com quem elas se importam. As empresas de maior sucesso no Facebook fazem parte do gráfico social e promovem ativamente essa presença. </p>
-    <h2>O que é uma Fanpage</h2>
-    <p>As páginas do Facebook, ou Fanpages, são perfis públicos gratuitos que permitem compartilhar a sua empresa e produtos com usuários do Facebook de uma forma contínua. Quando os usuários do Facebook se conectam à sua página clicando no botão Curtir, você ganha uma conexão duradoura com eles. Isso permite publicar conteúdo e manter uma conversa contínua com as pessoas que escolheram se conectar à sua marca.</p>
-    <p>Quando eles interagem com a sua página e com o conteúdo que você compartilha, históricos virais são gerados nos perfis deles e nos Feeds de notícia dos amigos deles, dando à sua marca uma exposição orgânica gratuita.</p>
-    <img src="<?php echo $dominio;?>imagens/fanpage-facebook.jpg" alt="Fanpage Facebook" style="text-align:center;" width="405" height="435" />
-	<h2>Anúncios de Facebook</h2>
-    <p>Os Facebook Ads são integrados à experiência do usuário do Facebook para oferecer interação e envolvimentos nunca antes visto em outras plataformas de publicidade. </p>
-    <p>Por meio de uma série de ações sociais simples - como curtir sua página, responder uma enquete ou confirmar a presença no seu evento — as pessoas podem interagir rapidamente com o seu anúncio sem sair da página atual. Quando isso acontece, um histórico social é incorporado ao seu anúncio e mostrado para os amigos delas. </p>
-    <p>Se um usuário vir o nome de um amigo em um anúncio no Facebook, a chance dele lembrar do anúncio é 68% maior e tem o dobro de chance de se lembrar da marca. Este alto nível de contexto social só pode ser encontrado nos anúncios do Facebook, tornando-os mais relevantes para as pessoas e com uma capacidade muito maior de envolvimento com você. </p>
-    <p>Pela primeira vez, as marcas podem fazer marketing boca a boca em uma escala grande e global. Você cria uma conexão autêntica com pessoas reais e elas tornam os seus anúncios mais eficazes, geram ainda mais conexões com a sua marca e aumentam não só o alcance de sua marca, mas também o impacto nas pessoas que veem o seu anúncio. Em um mundo mais pessoal e social, é assim que as empresas constroem e mantêm o valor da marca a longo prazo.</p>
-
-<h3>Vantagens</h3>
-<ul>
-	<li>Alcance a audiência exata que poderia se interessar pela sua marca;</li>
-    <li>Direcione os anúncios de forma ampla, por preferências demogfráficas, geográficas, ou de acordo com as "Opções curtir e Interesses" do seu público alvo;</li>
-    <li>Trabalhe com diversos modelos de anúncio;</li>
-    <li>Aumente expressivamente o volume de fãs na sua página, a curto prazo;</li>
-    <li>Construa sua própria marca;</li>
-    <li>Adquira novos clientes;</li>
-    <li>Aprofunde as relações com os clientes que você já possui;</li>
-    <li>Obtenha novas informações sobre o que seus clientes realmente desejam e sobre como você pode servi-los melhor;</li>
-    <li>Aumentar sua base de fãs significa aumentar a visibilidade da sua marca na rede.</li>
-</ul>    
-<h3>O que fazemos?</h3>
-<ul>    
-    <li>Desenvolvemos sua Fanpage.</li>
-    <li>Criamos, editamos e gerenciamos sua campanha.</li>
-    <li>Desenvolvemos anúncios específicos para seu serviço.</li>
-    <li>Monitoramos a qualidade da campanha, buscando sempre o menor CPC (custo por clique) ou CPA (custo por aquisição de fã).</li>
-    <li>Receba um relatório personalizado da campanha.</li>
-    <li>Nosso trabalho é transparente, você tem total acesso à ferramenta.</li>
-</ul>    
-<?php include("../../includes/base_lp.php");?>
-<div class="faq_header" style="display:none;">
-<span class="titulo_faq">FAQ</span>
-<span class="subtitulo_faq"><!--<!--Perguntas Frequentes sobre nossos serviços 
+<div class="adwords_principal interna_principal">
+ <h1>Facebook Ads</h1>
+ <!--    <h2>O Google AdWords é uma ferramenta de publicidade do Google.</h2>--> 
+ <!--<p class="destaque">Multiplique os acessos ao seu site e converta mais visitantes em negócios. Conheça nossos serviços especializados em links patrocinados!</p>-->
+ <p>Com centenas de milhares de usuários ativos, o Facebook é um dos sites mais visitados no mundo. Além do crescimento no mundo todo, os usuários estão se tornando cada vez mais envolvidos. Metade de seus usuários retornam todos os dias e a quantidade de tempo gasto pelas pessoas no Facebook é o triplo do que elas gastam no site número 2 da lista.</p>
+ <p>Assim, os seus clientes estão no Facebook todos os dias, publicando atualizações sobre suas ideias e atividades, etc. Eles estão consumindo informações, fazendo recomendações e compartilhando opiniões uns com os outros. E fazer isso se tornou parte essencial da vida deles.</p>
+ <h2>Por que anunciar no Facebook?</h2>
+ <p>O marketing no Facebook permite se envolver com pessoas com a maior chance de ser interessar pela sua marca. Isso dá a elas a oportunidade de levar sua marca para a vida delas. E dá a você a oportunidade de criar conversas interativas e contínuas com os seus clientes existentes e em potencial.</p>
+ <p>No centro do Facebook está o gráfico social, um mapa de pessoas e suas conexões com tudo e todos com quem elas se importam. As empresas de maior sucesso no Facebook fazem parte do gráfico social e promovem ativamente essa presença. </p>
+ <h2>O que é uma Fanpage</h2>
+ <p>As páginas do Facebook, ou Fanpages, são perfis públicos gratuitos que permitem compartilhar a sua empresa e produtos com usuários do Facebook de uma forma contínua. Quando os usuários do Facebook se conectam à sua página clicando no botão Curtir, você ganha uma conexão duradoura com eles. Isso permite publicar conteúdo e manter uma conversa contínua com as pessoas que escolheram se conectar à sua marca.</p>
+ <p>Quando eles interagem com a sua página e com o conteúdo que você compartilha, históricos virais são gerados nos perfis deles e nos Feeds de notícia dos amigos deles, dando à sua marca uma exposição orgânica gratuita.</p>
+ <img src="<?php echo $dominio;?>imagens/fanpage-facebook.jpg" alt="Fanpage Facebook" style="text-align:center;" width="405" height="435" />
+ <h2>Anúncios de Facebook</h2>
+ <p>Os Facebook Ads são integrados à experiência do usuário do Facebook para oferecer interação e envolvimentos nunca antes visto em outras plataformas de publicidade. </p>
+ <p>Por meio de uma série de ações sociais simples - como curtir sua página, responder uma enquete ou confirmar a presença no seu evento — as pessoas podem interagir rapidamente com o seu anúncio sem sair da página atual. Quando isso acontece, um histórico social é incorporado ao seu anúncio e mostrado para os amigos delas. </p>
+ <p>Se um usuário vir o nome de um amigo em um anúncio no Facebook, a chance dele lembrar do anúncio é 68% maior e tem o dobro de chance de se lembrar da marca. Este alto nível de contexto social só pode ser encontrado nos anúncios do Facebook, tornando-os mais relevantes para as pessoas e com uma capacidade muito maior de envolvimento com você. </p>
+ <p>Pela primeira vez, as marcas podem fazer marketing boca a boca em uma escala grande e global. Você cria uma conexão autêntica com pessoas reais e elas tornam os seus anúncios mais eficazes, geram ainda mais conexões com a sua marca e aumentam não só o alcance de sua marca, mas também o impacto nas pessoas que veem o seu anúncio. Em um mundo mais pessoal e social, é assim que as empresas constroem e mantêm o valor da marca a longo prazo.</p>
+ <h3>Vantagens</h3>
+ <ul>
+  <li>Alcance a audiência exata que poderia se interessar pela sua marca;</li>
+  <li>Direcione os anúncios de forma ampla, por preferências demogfráficas, geográficas, ou de acordo com as "Opções curtir e Interesses" do seu público alvo;</li>
+  <li>Trabalhe com diversos modelos de anúncio;</li>
+  <li>Aumente expressivamente o volume de fãs na sua página, a curto prazo;</li>
+  <li>Construa sua própria marca;</li>
+  <li>Adquira novos clientes;</li>
+  <li>Aprofunde as relações com os clientes que você já possui;</li>
+  <li>Obtenha novas informações sobre o que seus clientes realmente desejam e sobre como você pode servi-los melhor;</li>
+  <li>Aumentar sua base de fãs significa aumentar a visibilidade da sua marca na rede.</li>
+ </ul>
+ <h3>O que fazemos?</h3>
+ <ul>
+  <li>Desenvolvemos sua Fanpage.</li>
+  <li>Criamos, editamos e gerenciamos sua campanha.</li>
+  <li>Desenvolvemos anúncios específicos para seu serviço.</li>
+  <li>Monitoramos a qualidade da campanha, buscando sempre o menor CPC (custo por clique) ou CPA (custo por aquisição de fã).</li>
+  <li>Receba um relatório personalizado da campanha.</li>
+  <li>Nosso trabalho é transparente, você tem total acesso à ferramenta.</li>
+ </ul>
+ <?php include("../../includes/base_lp.php");?>
+ <div class="faq_header" style="display:none;"> <span class="titulo_faq">FAQ</span> <span class="subtitulo_faq"><!--<!--Perguntas Frequentes sobre nossos serviços 
 de Administração de Links Patrocinados:-->--></span></div>
-<div id="faq_adwords" style="display:none;">
- <div class="pergunta">
-    	<div class="pergunta_header_box">
-        	<!--
+ <div id="faq_adwords" style="display:none;">
+  <div class="pergunta">
+   <div class="pergunta_header_box"> 
+    <!--
             <div class="pergunta_header">Qual a vantagem de contratar uma agência para administrar minha campanha de links patrocinados, já que posso contratar diretamente?</div>
             <div class="pergunta_box">
             	<span class="pergunta_icon"></span>
@@ -151,9 +148,9 @@ de Administração de Links Patrocinados:-->--></span></div>
        <p>Somos focados em Search Engine Marketing. Respiramos isso todos os dias. Montamos nossas estratégias partindo das palavras-chave digitadas por usuários nos mecanismos de busca, e acompanhamos todos os passos dele desde o clique a conclusão de uma meta, que pode ser uma venda, um formulário preenchido, uma página visitada.</p>
        <p>Enviamos relatórios periódicos contendo as palavras-chave que mais geraram resultado, sugestões constantes de novas palavras-chave a serem trabalhadas nas campanhas, desempenho dos anúncios, entre outras informações relacionadas à sua campanha e as novidades nos mecanismos de busca;</p><br/>
        <p>Precisa de mais informações? Fale com a gente e veja qual dos nossos serviços de links patrocinados mais se adaptam às necessidades de sua empresa.</p>--></div>
-    </div>
+  </div>
+ </div>
 </div>
-    </div>
 <?php
 include("../../includes/lateral_lp.php");
 include("../../includes/rodape.php");

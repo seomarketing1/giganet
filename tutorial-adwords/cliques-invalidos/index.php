@@ -14,6 +14,7 @@ include("../../includes/header.php");
 include("../../includes/menu.php");
 ?>
 </head>
+
 <div id="tutorial_seo_content">
  <div class="tutorial_seo_principal">
   <?php

@@ -9,63 +9,41 @@ $headers = apache_request_headers();
 <meta name="ROBOTS" content="NOINDEX,NOFOLLOW"/>
 <title>Heading Tags | Agência SEO Marketing</title>
 <meta name="description" content="" />
-
 <?php
 include("../../includes/header.php");
 include("../../includes/menu.php");
 ?>
-</head><div id="tutorial_seo_content">
-    <div class="tutorial_seo_principal">
-    	<?php
+</head>
+<div id="tutorial_seo_content">
+ <div class="tutorial_seo_principal">
+  <?php
 include("../../includes/tutorial/menu_tutorial_seo.php");
 ?>
-<div class="breadcrumb">
-			<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-			  <a href="<?php echo $dominio;?>" itemprop="url">
-			    <span itemprop="title">Página Inicial</span>
-			  </a> ›
-			</div>  
-			<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-			  <a href="<?php echo $dominio;?>tutorial/" itemprop="url">
-			    <span itemprop="title">Tutorial</span>
-			  </a> ›
-			</div>  
-			<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-			  <a href="<?php echo $dominio;?>tutorial-seo/" itemprop="url">
-			    <span itemprop="title">Tutorial SEO</span>
-			  </a> ›
-			</div>
-			<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
-			    <span itemprop="title">Heading Tags</span>
-			</div>
-		</div>
-
-    	<h1><small>Tutorial SEO</small><br/>Heading Tags</h1>
-        <p class="destaque">Escrever conteúdo</p>
-
-        <a href="<?php echo $dominio;?>tutorial-seo/como-configurar-robots-txt/" class="tutorial_seo_prox_topico">
-        <span class="prox_topico_peq">Próximo Tópico</span>
-        <span class="prox_topico_grande">Como configurar o Robots.txt</span>
-        </a>
-        <div class="tutorial_int_banner_botton">A Seo Marketing é uma agência especializada em marketing de busca.
-Oferecemos um pacote de serviço SEO, links patrocinados, consultoria em Google Analytics e landings pages para tornar o Google na sua ferramenta de negócio mais lucrativa e eficiente.<br/>
-<span class="destaque">Se interessou?</span></div>
-    </div>
-    <div class="tutorial_seo_secundario">
-    
-<div class="destaque_tut_seo">
-    <h3>Destaques desta página</h3>
-    <ul class="ul_destaque_tut_seo">
-        <li>1</li>
-        <li>2</li>
-    </ul>
-</div>
-    
-<?php
+  <div class="breadcrumb">
+   <div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"> <a href="<?php echo $dominio;?>" itemprop="url"> <span itemprop="title">Página Inicial</span> </a> › </div>
+   <div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"> <a href="<?php echo $dominio;?>tutorial/" itemprop="url"> <span itemprop="title">Tutorial</span> </a> › </div>
+   <div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"> <a href="<?php echo $dominio;?>tutorial-seo/" itemprop="url"> <span itemprop="title">Tutorial SEO</span> </a> › </div>
+   <div itemscope itemtype="http://data-vocabulary.org/Breadcrumb"> <span itemprop="title">Heading Tags</span> </div>
+  </div>
+  <h1><small>Tutorial SEO</small><br/>Heading Tags</h1>
+  <p class="destaque">Escrever conteúdo</p>
+  <a href="<?php echo $dominio;?>tutorial-seo/como-configurar-robots-txt/" class="tutorial_seo_prox_topico"> <span class="prox_topico_peq">Próximo Tópico</span> <span class="prox_topico_grande">Como configurar o Robots.txt</span> </a>
+  <div class="tutorial_int_banner_botton">A Seo Marketing é uma agência especializada em marketing de busca.
+   Oferecemos um pacote de serviço SEO, links patrocinados, consultoria em Google Analytics e landings pages para tornar o Google na sua ferramenta de negócio mais lucrativa e eficiente.<br/> <span class="destaque">Se interessou?</span></div>
+ </div>
+ <div class="tutorial_seo_secundario">
+  <div class="destaque_tut_seo">
+   <h3>Destaques desta página</h3>
+   <ul class="ul_destaque_tut_seo">
+    <li>1</li>
+    <li>2</li>
+   </ul>
+  </div>
+  <?php
 include("../../includes/tutorial/lateral_tutorial_seo.php");
 echo "</div>";
 include("../../includes/rodape.php");
 ?>
-
-
-</div></div></body></html>
+ </div>
+</div>
+</body></html>

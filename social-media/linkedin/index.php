@@ -14,30 +14,27 @@ include("../../includes/header.php");
 include("../../includes/menu.php");
 ?>
 <div id="sociais_content"  class="interna_content">
-    <div class="sociais_principal interna_principal">
-    <h1>LinkedIn para empresas</h1>
-<p>Encaramos o LinkedIn como uma oportunidade para que nossos clientes explorem o corporativismo e um maior engajamento com seu próprios profissionais, além de oportunidades do setor em que atuam. A maior preocupação da SEO Marketing é transformar essa ferramenta em um propulsor para ações que caracterizem a marca como referência de excelência nos serviços que oferece.</p>
-  
-
-<!--<ul class="social_media_links">
+<div class="sociais_principal interna_principal">
+ <h1>LinkedIn para empresas</h1>
+ <p>Encaramos o LinkedIn como uma oportunidade para que nossos clientes explorem o corporativismo e um maior engajamento com seu próprios profissionais, além de oportunidades do setor em que atuam. A maior preocupação da SEO Marketing é transformar essa ferramenta em um propulsor para ações que caracterizem a marca como referência de excelência nos serviços que oferece.</p>
+ 
+ <!--<ul class="social_media_links">
 	<li><a href="<?php echo $dominio;?>social-media/fanpages-facebook-empresas/criacao-fanpages">Criação de Fanpages</a></li>
     <li><a href="<?php echo $dominio;?>social-media/fanpages-facebook-empresas/administracao-fanpages">Administração de Fanpages</a></li>
     <li><a href="<?php echo $dominio;?>social-media/fanpages-facebook-empresas/conteudo-fanpages">Conteudo para Fanpages</a></li>
 </ul>
--->
-<a class="contrate" href=""></a>
-<p><a href="<?php echo $dominio;?>social-media/" rel="nofollow"><< Voltar</a></p> 
-<!--// Início do FAQ //-->
-
-<div class="faq_header" style="display:none">
-<span class="titulo_faq">FAQ</span>
-<span class="subtitulo_faq" style="display:none"><!--Perguntas Frequentes sobre nossos serviços 
+--> 
+ <a class="contrate" href=""></a>
+ <p><a href="<?php echo $dominio;?>social-media/" rel="nofollow"><< Voltar</a></p>
+ <!--// Início do FAQ //-->
+ 
+ <div class="faq_header" style="display:none"> <span class="titulo_faq">FAQ</span> <span class="subtitulo_faq" style="display:none"><!--Perguntas Frequentes sobre nossos serviços 
 de SEO - otimização de sites para meacanismos 
 de pesquisa--></span></div>
-<div id="faq_adwords" style="display:none">
-    <div class="pergunta">
-    	<div class="pergunta_header_box">
-        	<!--<div class="pergunta_header">Qual seria a vantagem de estar contratando uma empresa para fazer isso para mim, já que possocontratar o Google Adwords diretamente?</div>
+ <div id="faq_adwords" style="display:none">
+  <div class="pergunta">
+   <div class="pergunta_header_box"> 
+    <!--<div class="pergunta_header">Qual seria a vantagem de estar contratando uma empresa para fazer isso para mim, já que possocontratar o Google Adwords diretamente?</div>
             <div class="pergunta_box">
             	<span class="pergunta_icon"></span>
             </div>
@@ -76,10 +73,9 @@ de pesquisa--></span></div>
         </div>
         <div class="pergunta_content">
         Começar a usar o Google Adwords e o Yahoo Search Marketing é fácil, o difícil é dominar a ferramenta e tirar o máximo proveito dela. Pouquíssimas empresas podem se dar ao luxo de contratar funcionários que se dediquem em tempo integral a administrar campanhas e se manter atualizados com tudo o que acontece de novo no mundo do marketing para mecanismos de busca. Criamos campanhas que podem ter milhares de palavras-chave utilizando para isso aplicativos desenvolvidos internamente por nós. À medida que o número de anunciantes for aumentando, ficará cada vez mais difícil ter o retorno desejado sem dominar a fundo todos os aspectos das campanhas de links patrocinados.--></div>
-    </div>
+  </div>
+ </div>
 </div>
-
-    </div>
 <?php
 include("../../includes/lateral_sm.php");
 include("../../includes/rodape.php");

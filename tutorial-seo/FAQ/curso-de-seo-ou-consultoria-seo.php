@@ -12,7 +12,6 @@ function curPageURL() {
  return $pageURL;
 }
 ?>
-
 <?php
 $score = "";
 $vote = "";
@@ -54,62 +53,53 @@ $resul = $score/$vote;
 <meta name="ROBOTS" content="NOINDEX,NOFOLLOW"/>
 <title>Curso de SEO ou Consultoria? | Agência SEO Marketing</title>
 <meta name="description" content="" />
-
 <?php
 include("../../includes/header.php");
 ?>
 <script src='../../js/jquery.MetaData.js' type="text/javascript" language="javascript"></script>
- <script src='../../js/jquery.rating.js' type="text/javascript" language="javascript"></script>
+<script src='../../js/jquery.rating.js' type="text/javascript" language="javascript"></script>
 <?
 include("../../includes/menu.php");
 ?>
 <div id="tutorial_seo_faq_content">
 <div class="tutorial_seo_faq_principal">
-    	<?php
+ <?php
 include("../../includes/tutorial/menu_tutorial_seo.php");
 ?>
-    	<h1>Curso de SEO ou consultoria? Escolha o melhor para você.</h1>
-        <p>O principal curso de SEO do Brasil é o curso do Paulo do Marketing de Busca. Esse curso forma há anos webmasters em técnicas avançadas de Adwords. Um curso, porém, foca em aspectos teóricos, genéricos. Cada site tem as suas características peculiares, e passar da teoria à implementação pode não ser um pesadelo.</p>
-
-<p>Ao contrário de um curso de SEO, um programa de coaching é um trabalho a 4 mãos, onde revisamos todos os seus passos e orientamos você no melhor caminho a seguir. Se você pretende implementar um programa de SEO em sua empresa, mas gostaria de um acompanhamento de uma agência especializada em SEO, fale com a gente. A SEO Marketing possui uma grande experiência em trabalhos de SEO White hat. Seguindo as orientações do para webmasters do Google, seguimos todos os passos da implementação de seu trabalho de SEO, complementando de forma eficiente cursos ou leituras de SEO que você já tenha feito.</p>
-
-<p>Ligue para a gente para saber mais detalhes do trabalho de consultoria em SEO!</p>
-
-<p align="center">(11) 2894-2364<br/>
-(11) 5181-1572<br/>
-(11) 5181-0164<br/>
-(21) 3521-6955
-</p>
-        <div class="faq_compratilhar">
-        <h3>Compartilhe esta informação</h3>
-        </div>
-        <div class="faq_avaliar">
-        <span class="faq_avaliar_header">Avalie esta informação</span><span class="faq_avaliar_star">
-        <form action="../../contato.envio.faq.php" method="post" id="faq_avaliar"><input type="hidden" id="score" name="score" value="<?php echo $score;?>" />
-			<input type="hidden" id="vote" name="vote" value="<?php echo $vote;?>" />
-			<input type="hidden" id="url" name="url"/>
-			<input type="hidden" id="name-page" name="name-page" />
-            <input type="hidden" id="rating" value="<?php echo $resul;?>" />
-			<input name="star1" id="v1" <?php if($resul >=0.5 && $resul <=1){echo 'checked="true"';}?>  type="radio" class="star" value="0.5"/>
-			<input name="star1" id="v2" <?php if($resul >=1 && $resul <=1.5){echo 'checked="true"';}?> type="radio" class="star" value="1"/>
-			<input name="star1" id="v3" <?php if($resul >=1.5 && $resul <=2){echo 'checked="true"';}?> type="radio" class="star" value="1.5"/>
-			<input name="star1" id="v4" <?php if($resul >=2 && $resul <=2.5){echo 'checked="true"';}?> type="radio" class="star" value="2"/>
-			<input name="star1" id="v5" <?php if($resul >=2.5 && $resul <=3){echo 'checked="true"';}?> type="radio" class="star" value="2.5"/>
-            <input name="star1" id="v6" <?php if($resul >=3 && $resul <=3.5){echo 'checked="true"';}?>  type="radio" class="star" value="3"/>
-			<input name="star1" id="v7" <?php if($resul >=3.5 && $resul <=4){echo 'checked="true"';}?> type="radio" class="star" value="3.5"/>
-			<input name="star1" id="v8" <?php if($resul >=4 && $resul <=4.5){echo 'checked="true"';}?> type="radio" class="star" value="4"/>
-			<input name="star1" id="v9" <?php if($resul >=4.5 && $resul <=5){echo 'checked="true"';}?> type="radio" class="star" value="4.5"/>
-			<input name="star1" id="v10" <?php if($resul >=5){echo 'checked="true"';}?> type="radio" class="star" value="5"/>
-</form></span> 
-        </div>
-        <div class="face_coments">
-        <div class="fb-comments" data-href=<?php echo '"'.curPageURL().'"';?>" data-num-posts="10" data-width="555"></div>
-        </div>
-        <div class="tutorial_int_banner_botton">A Seo Marketing é uma agência especializada em marketing de busca.
-Oferecemos um pacote de serviço SEO, links patrocinados, consultoria em Google Analytics e landings pages para tornar o Google na sua ferramenta de negócio mais lucrativa e eficiente.<br/>
-<span class="destaque">Se interessou?</span></div>
-    </div>
-    <div class="tutorial_seo_faq_secundario">
+ <h1>Curso de SEO ou consultoria? Escolha o melhor para você.</h1>
+ <p>O principal curso de SEO do Brasil é o curso do Paulo do Marketing de Busca. Esse curso forma há anos webmasters em técnicas avançadas de Adwords. Um curso, porém, foca em aspectos teóricos, genéricos. Cada site tem as suas características peculiares, e passar da teoria à implementação pode não ser um pesadelo.</p>
+ <p>Ao contrário de um curso de SEO, um programa de coaching é um trabalho a 4 mãos, onde revisamos todos os seus passos e orientamos você no melhor caminho a seguir. Se você pretende implementar um programa de SEO em sua empresa, mas gostaria de um acompanhamento de uma agência especializada em SEO, fale com a gente. A SEO Marketing possui uma grande experiência em trabalhos de SEO White hat. Seguindo as orientações do para webmasters do Google, seguimos todos os passos da implementação de seu trabalho de SEO, complementando de forma eficiente cursos ou leituras de SEO que você já tenha feito.</p>
+ <p>Ligue para a gente para saber mais detalhes do trabalho de consultoria em SEO!</p>
+ <p align="center">(11) 2894-2364<br/> (11) 5181-1572<br/> (11) 5181-0164<br/> (21) 3521-6955 </p>
+ <div class="faq_compratilhar">
+  <h3>Compartilhe esta informação</h3>
+ </div>
+ <div class="faq_avaliar"> <span class="faq_avaliar_header">Avalie esta informação</span><span class="faq_avaliar_star">
+  <form action="../../contato.envio.faq.php" method="post" id="faq_avaliar">
+   <input type="hidden" id="score" name="score" value="<?php echo $score;?>" />
+   <input type="hidden" id="vote" name="vote" value="<?php echo $vote;?>" />
+   <input type="hidden" id="url" name="url"/>
+   <input type="hidden" id="name-page" name="name-page" />
+   <input type="hidden" id="rating" value="<?php echo $resul;?>" />
+   <input name="star1" id="v1" <?php if($resul >=0.5 && $resul <=1){echo 'checked="true"';}?>  type="radio" class="star" value="0.5"/>
+   <input name="star1" id="v2" <?php if($resul >=1 && $resul <=1.5){echo 'checked="true"';}?> type="radio" class="star" value="1"/>
+   <input name="star1" id="v3" <?php if($resul >=1.5 && $resul <=2){echo 'checked="true"';}?> type="radio" class="star" value="1.5"/>
+   <input name="star1" id="v4" <?php if($resul >=2 && $resul <=2.5){echo 'checked="true"';}?> type="radio" class="star" value="2"/>
+   <input name="star1" id="v5" <?php if($resul >=2.5 && $resul <=3){echo 'checked="true"';}?> type="radio" class="star" value="2.5"/>
+   <input name="star1" id="v6" <?php if($resul >=3 && $resul <=3.5){echo 'checked="true"';}?>  type="radio" class="star" value="3"/>
+   <input name="star1" id="v7" <?php if($resul >=3.5 && $resul <=4){echo 'checked="true"';}?> type="radio" class="star" value="3.5"/>
+   <input name="star1" id="v8" <?php if($resul >=4 && $resul <=4.5){echo 'checked="true"';}?> type="radio" class="star" value="4"/>
+   <input name="star1" id="v9" <?php if($resul >=4.5 && $resul <=5){echo 'checked="true"';}?> type="radio" class="star" value="4.5"/>
+   <input name="star1" id="v10" <?php if($resul >=5){echo 'checked="true"';}?> type="radio" class="star" value="5"/>
+  </form>
+  </span> </div>
+ <div class="face_coments">
+  <div class="fb-comments" data-href=<?php echo '"'.curPageURL().'"';?>" data-num-posts="10" data-width="555"></div>
+ </div>
+ <div class="tutorial_int_banner_botton">A Seo Marketing é uma agência especializada em marketing de busca.
+  Oferecemos um pacote de serviço SEO, links patrocinados, consultoria em Google Analytics e landings pages para tornar o Google na sua ferramenta de negócio mais lucrativa e eficiente.<br/> <span class="destaque">Se interessou?</span></div>
+</div>
+<div class="tutorial_seo_faq_secundario">
 <?php
 include("../../includes/tutorial/lateral_tutorial_seo.php");
 echo "</div>";
