@@ -631,7 +631,7 @@ a.ana_link:active {
 	color: #666
 }
 .case_header {
-	font-size: 35px;
+	font-size: 25px;
 	font-weight: 700;
 	color: #333;
 	width: 590px;
@@ -639,6 +639,12 @@ a.ana_link:active {
 	display: inline-block;
 	padding-bottom: 20px
 }
+.home_quem_somos{
+
+	font-size: 14px;
+	nargin-left:10px;
+
+	}
 #depos {
 	display: inline-block;
 	margin-left: 10px;
@@ -677,7 +683,7 @@ a.ana_link:active {
 	vertical-align: bottom
 }
 .depos_header {
-	font-size: 25px;
+	font-size: 20px;
 	color: #333;
 	font-weight: 700;
 	display: inline-block;
