@@ -7,9 +7,9 @@ $headers = apache_request_headers();
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="ROBOTS" content="NOINDEX,NOFOLLOW"/>
-<title>SEO Marketing - Anúncios no Google, Otimização de Sites - SEO</title>
-<meta name="description" content="Tutorial, Blog, gloss&aacute;rio, dicas de SEO. Uma ag&ecirc;ncia diferente, focada em servi&ccedil;os de SEO - otimiza&ccedil;&atilde;o de sites - e an&uacute;ncios no Google. Seja encontrado na internet." />
-<meta name="keywords" content="SEO, Brasil, an&uacute;ncios, google, Search Engine Optimization, Search Engine Marketing, otimiza&ccedil;&atilde;o de sites, Links patrocinados, GOOGLE ANALYTICS, deep analysis" />
+<title>SEO Marketing - An&uacute;ncios Google, SEO, Analytics, Facebook Marketing</title>
+<meta name="description" content="Apare�a na primeira pa&aacute;gina do Google com a SEO Marketing, Ag&ecirc;ncia de Performance focada em Otimiza&ccedil;&atilde;o de Sites, an&uacute;ncios AdWords, Analytics e Redes Sociais." />
+<meta name="keywords" content="seo, google, analytics, adwords, redes sociais, facebook" />
 <meta name="msvalidate.01" content="D27A447C843D47858DEC3BE31C939747" />
 <?php
 include("includes/header.php");
@@ -29,7 +29,7 @@ $("#feeds").SeoSocial();
             Google Marketing</a></h1>
             <h2 class="sub">Anúncios Google AdWords, SEO, Facebook Marketing, Google Analytics</h2>
             <p>Integrados para que a internet não seja um quebra-cabeças sem solução para sua empresa</p>
-            <a href="#" class="cta">Conheça nossos Serviços &raquo;</a> 
+            <a href="<?php echo $dominio;?>servicos/" class="cta">Conheça nossos Serviços &raquo;</a> 
         </div>
         <div class="figure">
             <img src="<?php echo $dominio;?>imagens/INSTITUCIONAL2.jpg" alt="" height="494px" width="990px"/>
@@ -37,15 +37,17 @@ $("#feeds").SeoSocial();
     </div>
     <div class="item" id="item-1">
         <div class="article"> 
-        	<h2><a href="#">SEO - Seu site na primeira página do Google</a></h2>
-            <p>Aumente o tráfego gratuito de potenciais clientes vindos dos resultados de busca gratuitos do Google, Binge Yahoo com a empresa que nasceu fazendo exatamente isso!</p> 
+        	<p class="sub"><a href="<?php echo $dominio;?>seo/">SEO - Seu site na primeira página do Google</a></p>
+            <p>Aumente o tráfego gratuito de potenciais clientes vindos dos resultados de busca gratuitos do Google, Binge Yahoo com a empresa que nasceu fazendo exatamente isso!</p>
+						<a href="<?php echo $dominio;?>seo/" class="cta">Saiba mais &raquo;</a> 
         </div>
         <div class="figure"><img src="<?php echo $dominio;?>imagens/seo_2.jpg" alt="" height="494px" width="990px" /></div>
     </div>
     <div class="item" id="item-2">
         <div class="article"> 
-        	<h2><a href="#">Google Adwords<br/>Links Patrocinados com ROI real time</a></h2>
-            <p>Invista no Google AdWords com a SEO Marketing, acompanhando de perto o retorno de suas campanhas nos resultados de busca do Google.</p> 
+        	<p class="sub"><a href="<?php echo $dominio;?>links-patrocinados/">Google Adwords<br/>Links Patrocinados com ROI real time</a></p>
+            <p>Invista no Google AdWords com a SEO Marketing, acompanhando de perto o retorno de suas campanhas nos resultados de busca do Google.</p>
+						<a href="<?php echo $dominio;?>links-patrocinados/" class="cta">Saiba mais &raquo;</a> 
         </div>
         <div class="figure">
         	<img src="<?php echo $dominio;?>imagens/adwords.jpg" alt=""  height="494px" width="990px"/>
@@ -53,8 +55,9 @@ $("#feeds").SeoSocial();
     </div>
     <div class="item" id="item-3">
         <div class="article"> 
-        	<h2><a href="#">Consultoria Google Analytics</a></h2>
+        	<p class="sub"><a href="<?php echo $dominio;?>web-analytics/">Consultoria Google Analytics</a></p>
             <p>Explore todas as funcionalidades do Google Analytics e descubra como aumentar as suas vendas.</p>
+						<a href="<?php echo $dominio;?>web-analytics/" class="cta">Saiba mais &raquo;</a>
         </div>
         <div class="figure">
         	<img src="<?php echo $dominio;?>imagens/ANALYTICS.jpg" alt="" height="494px" width="990px"/>
@@ -62,8 +65,9 @@ $("#feeds").SeoSocial();
     </div>
     <div class="item" id="item-4">
         <div class="article"> 
-        <!--<h2><a href="#">Lorem ipsum dolor sit amet consectetur adipiscing elit</a></h2>
-                  <p>Lore ipsum dolor sit amet, consectetur adipiscing elit. Nunc sit amet nulla pec pururs adipiscing sagittis sed eu lorem. Duis mollis pretiu m lacinia.</p>--> 
+        <p class="sub"><a href="<?php echo $dominio;?>social-media/">Redes Sociais</a></p>
+                  <p>Crie sua presen&ccedil;a, Aumente a base de seguidores e monetize a incurs&atilde:o de sua empresa nas redes sociais</p>
+									<a href="<?php echo $dominio;?>social-media/" class="cta">Saiba mais &raquo;</a> 
         </div>
         <div class="figure">
         	<img src="<?php echo $dominio;?>imagens/MIDIAS SOCIAIS_ok2.jpg" alt="" height="494px" width="990px"/>
@@ -134,15 +138,26 @@ Sob Controle</a><br/>
 </div>
 <div id="depos"><span class="depos_header">DEPOIMENTOS DE<br/>
 CLIENTES</span> <span class="depo">Procuramos a SEO Marketing para um trabalho de incremento do site do Hospital e criação de sites nas redes sociais - Facebook; Orkut; Blog; Youtube. Com um trabalho de AdWords e SEO conseguimos um bom retorno de acesso ao site, assim como o incremento dos sites nas mídias sociais foi um sucesso".</span> <span class="nomedepo">Dr. José Luiz Setubal<br/>
-Presidente - Hospital Infantil<br/>
-Sabará</span> <span class="logodepo"></span> <span class="saiba_mais"><a href="clientes/">Mais Clientes!</a></span> </div>
+Presidente - <a href="http://www.sabara.com.br/">Hosppital Infantil<br/>
+Sabará</span></a> <span class="logodepo"></span> <span class="saiba_mais"><a href="clientes/">Mais Clientes!</a></span> </div>
+<!--Novo depoimento Alo bebe
+<div id="depos"><span class="depos_header">DEPOIMENTOS DE<br/>
+CLIENTES</span><span class="depo">A Al� Beb� escolheu recentemente a SEO Marketing p�ra um trabalho importante de divulga��o no Google de nossas principais linhas de produtos, com destaque para <a href="http://www.alobebe.com.br/marca/Burigotto">Burigotto</a>, Infanti e Fisher Price. Pudemos rapidamente perceber um aumento nas vendas dessas linhas de produto.</span> <span class="nomedepo">Luciano Kalil, <br/>
+Diretor de E-commerce - <a href="http://www.alobebe.com.br/">Al&ocirc; Beb&ecirc:
+</span></a> <span class="logodepo"></span> <span class="saiba_mais"><a href="clientes/">Mais Clientes!</a></span><span class="saiba_mais"><a href="clientes/">Mais Clientes!</a></span> </div>-->
+<!-- Novo depoimeto Cursos24 horas
+ <div id="depos"><span class="depos_header">DEPOIMENTOS DE<br/>
+CLIENTES</span><span class="depo">Contamos com a SEO Marketing para otimizar o site e administrar as campanhas do Google AdWords. A combina��o resultou em uma grande redu��o no nosso custo por convers�o, trazendo mais alunos com um gasto menor. Os benef�cios trazidos pela otimiza��o n�o s� colaboraram para melhorar o desempenho no AdWords, como tamb�m influenciaram positivamente a taxa de convers�o de todo o site, al�m de auxiliarem no posicionamento org�nico dos buscadores</span> <span class="nomedepo">Luiz Campos, <br/>
+Propriet�rio - <a href="http://www.cursos24horas.com.br/">Cursos 24 horas - cursos online
+</span></a> <span class="logodepo"></span> <span class="saiba_mais"><a href="clientes/">Mais Clientes!</a></span><span class="saiba_mais"><a href="clientes/">Mais Clientes!</a></span> </div>-->
+
 </div>
 </div>
 <div id="clientes"> <span class="clientes_header">Nossos<br/>
 Clientes</span><a  href="<?php echo $dominio;?>clientes/" class="cliente_e"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_f"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_a"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_b"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_c"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_d"></a></div>
 <div id="boxinfo">
 <div id="boxmissao">
-<h2 style="margin:5px 0; padding:2px 0;" class="cabecalho"><a href="">O que fazemos</a></h2>
+<h2 style="margin:5px 0; padding:2px 0;" class="cabecalho"><a href="">Por que nos contratar</a></h2>
 <p class="home_quem_somos">Aumentar a sua base de clientes não precisa ser um quebra-cabeças. Enquanto sites de busca como o <a href="">Google</a> são o meio usado hoje por empresas e consumidores para buscar informações de produtos, pesquisar preços ou contratar serviços, as <a href="">Redes Sociais</a> como o <a href="">Facebook</a>, Twitter, Google+ e Linkedin servem como um novo ponto de interação com o seu público alvo. A agência SEO Marketing Brasil nasceu em 2006, e foca  exatamente em aumentar a visibilidade de sua empresa através de otimização de sites para o Google (<a href="">SEO</a>), anúncios no <a href="">Google AdWords</a>, Bing, UOL, Buscapé, UOL e outros portais ou administrando de forma eficiente e mensurável a presença de sua empresa nas redes sociais. Através de uma série de ações direcionadas a melhorar a visibilidade, usabilidade e eficiência de seu site, a SEO Marketing Brasil é a peça que faltava para o seu sucesso na internet.</p>
 <div id="boxsociais"> 
 	<span class="cabecalho">Compartilhe nas Redes Sociais</span>

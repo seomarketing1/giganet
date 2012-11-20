@@ -39,7 +39,7 @@
 	text-decoration:none;
 	text-transform:uppercase;
 }
-.slidecontent .item .article h2.sub{
+ .slidecontent .item .article h2.sub{
 	color:#9AC;
 	font-size:18px;
 }
@@ -47,6 +47,10 @@
 	color:#777;
 	font-size:12px;
 	margin:0 0 30px;
+}
+ .slidecontent .item .article p.sub{
+	color:#9AC;
+	font-size:18px;
 }
  .slidecontent .item .article a.cta{
 	background-color:#CD0000;
