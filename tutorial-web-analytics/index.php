@@ -16,7 +16,7 @@ include("../includes/menu.php");
 <div id="tutorial_ana_content">
  <div class="tutorial_ana_principal">
   <?php
-include("../includes/menu_tutorial_analytics.php");
+include("../includes/tutorial/menu_tutorial_analytics.php");
 ?>
   <h1>Tutorial SEO<br/>como o Google exibe<br/>seus resultados</h1>
   <p class="destaque">á pensou como os sites de busca conseguem (na maioria das vezes) mostrar com rapidez e eficiência o que você procura? Parece que lêem o nosso pensamento. Este tutorial SEO mostra o que acontece "nos bastidores", quando são digitadas palavras-chave nestes sistemas. Os principais sites de busca do mercado são o Google, Yahoo / Cadê e MSN. Por ser o mecanismo de busca mais utilizado, este tutorial está baseado no Google. Aprenda como ele funciona e adquira valiosas dicas para posicionar melhor o seu site nestes sites de busca.</p>
