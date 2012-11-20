@@ -25,7 +25,7 @@ $("#feeds").SeoSocial();
 <div class="slidecontent">
     <div class="item" id="item-0">
         <div class="article">
-            <h1><a href="#">SEO Marketing é <br/>
+            <h1><a href="<?php echo $dominio;?>servicos/">SEO Marketing é <br/>
             Google Marketing</a></h1>
             <h2 class="sub">Anúncios Google AdWords, SEO, Facebook Marketing, Google Analytics</h2>
             <p>Integrados para que a internet não seja um quebra-cabeças sem solução para sua empresa</p>
@@ -136,9 +136,9 @@ Sob Controle</a><br/>
 <div id="case"><span class="case_header">CASE GOOGLE: ASUS</span> Veja neste v&iacute;deo do Google como a administra&ccedil;&atilde;o dos an&uacute;ncios de search e display Google AdWords  feita  pela SEO Marketing praticamente acabou com o estoque de equipamentos nos varejistas.<br/>
 <p  style="text-align:center;"><a href="<?php echo $dominio;?>clientes/asus.php"><img alt="" src="http://www.seomarketing.com.br/imagens/video-asus.jpg" /></a></p>
 </div>
-<div id="depos"><span class="depos_header">DEPOIMENTOS DE<br/>
+<div id="depos"><span class="depos_header">DEPOIMENTOS DE
 CLIENTES</span> <span class="depo">Procuramos a SEO Marketing para um trabalho de incremento do site do Hospital e criação de sites nas redes sociais - Facebook; Orkut; Blog; Youtube. Com um trabalho de AdWords e SEO conseguimos um bom retorno de acesso ao site, assim como o incremento dos sites nas mídias sociais foi um sucesso".</span> <span class="nomedepo">Dr. José Luiz Setubal<br/>
-Presidente - <a href="http://www.sabara.com.br/">Hosppital Infantil<br/>
+Presidente - <a href="http://www.sabara.com.br/">Hospital Infantil<br/>
 Sabará</span></a> <span class="logodepo"></span> <span class="saiba_mais"><a href="clientes/">Mais Clientes!</a></span> </div>
 <!--Novo depoimento Alo bebe
 <div id="depos"><span class="depos_header">DEPOIMENTOS DE<br/>
@@ -157,7 +157,7 @@ Propriet�rio - <a href="http://www.cursos24horas.com.br/">Cursos 24 horas - cur
 Clientes</span><a  href="<?php echo $dominio;?>clientes/" class="cliente_e"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_f"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_a"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_b"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_c"></a><a  href="<?php echo $dominio;?>clientes/" class="cliente_d"></a></div>
 <div id="boxinfo">
 <div id="boxmissao">
-<h2 style="margin:5px 0; padding:2px 0;" class="cabecalho"><a href="">Por que nos contratar</a></h2>
+<h2 style="margin:5px 0; padding:2px 0;" class="cabecalho">Por que nos contratar</h2>
 <p class="home_quem_somos">Aumentar a sua base de clientes não precisa ser um quebra-cabeças. Enquanto sites de busca como o <a href="">Google</a> são o meio usado hoje por empresas e consumidores para buscar informações de produtos, pesquisar preços ou contratar serviços, as <a href="">Redes Sociais</a> como o <a href="">Facebook</a>, Twitter, Google+ e Linkedin servem como um novo ponto de interação com o seu público alvo. A agência SEO Marketing Brasil nasceu em 2006, e foca  exatamente em aumentar a visibilidade de sua empresa através de otimização de sites para o Google (<a href="">SEO</a>), anúncios no <a href="">Google AdWords</a>, Bing, UOL, Buscapé, UOL e outros portais ou administrando de forma eficiente e mensurável a presença de sua empresa nas redes sociais. Através de uma série de ações direcionadas a melhorar a visibilidade, usabilidade e eficiência de seu site, a SEO Marketing Brasil é a peça que faltava para o seu sucesso na internet.</p>
 <div id="boxsociais"> 
 	<span class="cabecalho">Compartilhe nas Redes Sociais</span>
