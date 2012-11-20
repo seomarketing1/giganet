@@ -21,35 +21,42 @@ include("../includes/menu.php");
   <div class="servicos_header">
     <div class="menu_servico">
       <div class="servico_content"><img alt="" src="http://www.seomarketing.com.br/imagens/servicos-links.jpg" style="padding-top:15px; padding-bottom:10px;" />
-        <h2 class="adw_txt">Google AdWords <br/>
-          Links Patrocinados</h2>
-        <h3>Criação, administração, consultoria de anúncios no Google, Banners, Landing Pages</h3>
-        <p>Com dezenas ou centenas de concorrentes competindo pelo mesmo espaço nos resultados  do Google, contar com uma agência com 6 anos de experiência, certificada pelo Google e com centenas de clientes atendidos podem significar a diferença entre o sucesso e o fracasso de suas campanhas no Google.</p>
-        <a class="conheca_adw" href="<?php echo $dominio;?>links-patrocinados/">&nbsp;</a></div>
+        <h2 class="adw_txt">Google AdWords </h2>
+        <ul style="list-style:none;">
+        	<li><a href="#" class="link_serv" >Administração de Campanhas</a></li>
+            <li><a href="#" class="link_serv" >Consultoria AdWords</a></li>
+            <li><a href="#" class="link_serv">AdWords para E-commerce</a></li>
+            <li><a href="#" class="link_serv">Treinamento AdWords</a></li>
+        </ul>
+        <p>Com dezenas ou centenas de concorrentes competindo pelo mesmo espaço nos resultados  do Google, contar com uma agência com 6 anos de experiência, certificada pelo Google e com centenas de clientes atendidos podem significar a diferença entre o sucesso e o fracasso de suas campanhas no Google.
+        lorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsumlorem ypsum lorem </p>
+        <a class="button cta" href="<?php echo $dominio;?>links-patrocinados/">Conheça</a></div>
     </div>
     <div class="menu_servico">
       <div class="servico_content"><img alt="" src="http://www.seomarketing.com.br/imagens/servicos-seo2.jpg" style="padding-top:15px; padding-bottom:10px;"/>
-        <h2 class="seo_txt">SEO Google <br />
-          Otimização de Sites</h2>
-        <h3>Consultoria, Avaliação, Implementação on-page, Link Building</h3>
-        <p>Nascemos fazendo SEO, SEO é nosso nome. Conte com a experiência de nossos consultores e analistas para aumentar significativamente o tráfego de visitas vindos dos resultados gratuitos do Google. </p>
-        <a class="conheca_seo" href="<?php echo $dominio;?>seo/">&nbsp;</a></div>
+        <h2 class="seo_txt">SEO Google </h2>
+        <ul style="list-style:none;">
+        	<li><a href="#"  class="link_serv" >Administração de Campanhas</a></li>
+            <li><a href="#"  class="link_serv" >Consultoria AdWords</a></li>
+            <li><a href="#"  class="link_serv" >AdWords para E-commerce</a></li>
+            <li><a href="#"  class="link_serv" >Treinamento AdWords</a></li>
+        </ul>
+        <p>Nascemos fazendo SEO, SEO é nosso nome. Conte com a experiência de nossos consultores e analistas para aumentar significativamente o tráfego de visitas vindos dos resultados gratuitos do Google.lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem </p>
+        <a class="button cta" href="<?php echo $dominio;?>seo/"> conheça</a></div>
     </div>
     <div class="menu_servico">
       <div class="servico_content"><img alt="" src="http://www.seomarketing.com.br/imagens/servicos-landing.jpg" style="padding-top:15px; padding-bottom:10px;" />
-        <h2 class="soc_txt">Redes Sociais<br/>
-          Sob Controle</h2>
+        <h2 class="soc_txt">Redes Sociais</h2>
         <h3>Planejamento,  Fanpages, Faebook Ads, aumento de base de seguidores, engajamento, monitoramento e SAC 2.0</h3>
-        <p>Com um time de jornalistas e redatores especializados em criar um relacionamento duradouro e rentável de empresas com sua base de clientes existentes e potenciais, a SEO Marketing alia a estratégia de Redes Sociais a iniciativas de SEO e anúncios na internet, monitorando em detalhes o desempenho de sua presença nas redes.</p>
-        <a class="conheca_soc" href="<?php echo $dominio;?>social-media/">&nbsp;</a> </div>
+        <p>Com um time de jornalistas e redatores especializados em criar um relacionamento duradouro e rentável de empresas com sua base de clientes existentes e potenciais, a SEO Marketing alia a estratégia de Redes Sociais a iniciativas de SEO e anúncios na internet, monitorando em detalhes o desempenho de sua presença nas redes. lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum </p>
+        <a class="button cta" href="<?php echo $dominio;?>social-media/">Conheça</a> </div>
     </div>
     <div class="menu_servico">
       <div class="servico_content"><img alt="" src="http://www.seomarketing.com.br/imagens/servicos-analytics.jpg" style="padding-top:15px; padding-bottom:10px;" />
-        <h2 class="ana_txt">Google Analytics <br />
-          Deep Analysis</h2>
-        <h3>Consultoria, Suporte, Instalação, Customização, Relatórios e-commerce</h3>
-        <p>Saber cada passo dos visitantes de seu site é o primeiro passo para definir as alterações necesárias e multiplicar (mesmo) as vendas de de seu site. Seja o seu conhecimento em Analytics básico ou avançado, nossa experiência em mais de 400 contas Analytics lhe dará preciosas dicas para aumentar as vendas de seu site. </p>
-        <a class="conheca_ana" href="<?php echo $dominio;?>web-analytics/">&nbsp;</a> </div>
+        <h2 class="ana_txt">Google Analytics </h2>
+        <h3>Consultoria, Suporte, Instalação, Customização, Relatórios e-commerce ypsum lorem ypsum lorem ypsum lorem </h3>
+        <p>Saber cada passo dos visitantes de seu site é o primeiro passo para definir as alterações necesárias e multiplicar (mesmo) as vendas de de seu site. Seja o seu conhecimento em Analytics básico ou avançado, nossa experiência em mais de 400 contas Analytics lhe dará preciosas dicas para aumentar as vendas de seu site.lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum lorem ypsum ypsum lorem ypsum lorem ypsum </p>
+        <a class="button cta" href="<?php echo $dominio;?>web-analytics/">Conheça</a> </div>
     </div>
   </div>
   <br/>
