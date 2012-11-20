@@ -15,9 +15,6 @@ h1 small { font-size:18px; }
 /* Inicio Cabeçalho */
 #header {
 	display: block;
-	position:relative;
-	width:990px;
-	margin:0 auto;
 	height: 100px
 }
 #caixalogo {
@@ -26,7 +23,7 @@ h1 small { font-size:18px; }
 	height: 175px;
 	position: absolute;
 	top: 0;
-	left: -80px;
+	left: 37px;
 	display: inline-block;
 	z-index: 6;
 }
@@ -143,7 +140,7 @@ a.linkedin:hover {
 	position: absolute;
 	top: 60px;
 	right: 0;
-	left: 370px;
+	left: 490px;
 	height: 31px;
 	display: inline-block;
 	z-index: 5;
@@ -611,10 +608,10 @@ a.ana_link:active {
 #depoimentos {
 	width: 990px;
 	height: 389px;
-	background: url(../imagens/fundodepoimentos2.png);
+	background: url(../imagens/fundodepoimentos.png);
 	display: inline-block;
 	z-index: 2;
-	margin: -2px auto 0;
+	margin: -2px auto 0
 }
 #depocontainer {
 	margin-top: 52px;
@@ -622,8 +619,7 @@ a.ana_link:active {
 	background: url(../imagens/fundodepoimentosa.png);
 	width: 100%;
 	z-index: -1;
-	display: block;
-	margin-bottom:10px;
+	display: block
 }
 #case {
 	display: inline-block;
@@ -632,7 +628,7 @@ a.ana_link:active {
 	height: 295px;
 	text-align: left;
 	font-size: 14px;
-	color: #666;
+	color: #666
 }
 .case_header {
 	font-size: 25px;
@@ -641,13 +637,8 @@ a.ana_link:active {
 	width: 590px;
 	text-align: left;
 	display: inline-block;
-	padding-bottom: 20px;
+	padding-bottom: 20px
 }
-.home_quem_somos{
-	text-align: left;
-	font-size: 14px;
-	color: #666;
-	}
 #depos {
 	display: inline-block;
 	margin-left: 10px;
@@ -655,7 +646,7 @@ a.ana_link:active {
 	margin-top: 30px;
 	height: 295px;
 	text-align: left;
-	vertical-align: top;
+	vertical-align: top
 }
 .depo {
 	padding-top: 5px;
@@ -665,7 +656,7 @@ a.ana_link:active {
 	color: #666;
 	text-align: left;
 	display: inline-block;
-	width: 305px;
+	width: 305px
 }
 .nomedepo {
 	font-size: 12px;
@@ -674,7 +665,7 @@ a.ana_link:active {
 	width: 200px;
 	text-align: left;
 	display: inline-block;
-	padding-left: 20px;
+	padding-left: 20px
 }
 .logodepo {
 	background: url(../imagens/sprite.png) no-repeat;
@@ -683,7 +674,7 @@ a.ana_link:active {
 	width: 102px;
 	height: 49px;
 	margin-top: 10px;
-	vertical-align: bottom;
+	vertical-align: bottom
 }
 .depos_header {
 	font-size: 20px;
@@ -701,7 +692,7 @@ a.ana_link:active {
 	border-color: #dbdbdb;
 	border-style: solid;
 	border-width: 0 0 1px;
-	margin: 0 auto;
+	margin: 0 auto
 }
 .clientes_header {
 	display: inline-block;
@@ -2705,7 +2696,6 @@ a.ana_saiba_mais:active {
 	background-color:#32b9eb;
 	vertical-align: top;
 	margin-right: 10px;
-	margin-bottom:30px;
 	text-align: left;
 	padding-bottom:10px;
 	padding-top:10px;
@@ -2729,6 +2719,7 @@ a.a_destaque_tut_seo:hover {
 	background-color:#8dc9e8;
 	vertical-align: top;
 	margin-right: 10px;
+	margin-top:30px;
 	text-align: left;
 	padding-bottom:10px;
 	padding-top:10px;
@@ -2756,7 +2747,7 @@ a.a_tut_seo:hover {
 a.tutorial_seo_prox_topico {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotut.png);
 	color:#ffffff;
@@ -2766,7 +2757,7 @@ a.tutorial_seo_prox_topico {
 a.tutorial_seo_prox_topico:hover {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotuthover.png);
 	color:#ffffff;
@@ -2776,7 +2767,7 @@ a.tutorial_seo_prox_topico:hover {
 a.tutorial_seo_prox_topico:active {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotutactive.png);
 	color:#2062af;
@@ -3163,7 +3154,6 @@ p.destaque_faq_seo {
 	background-color:#7f1399;
 	vertical-align: top;
 	margin-right: 10px;
-	margin-bottom:30px;
 	text-align: left;
 	padding-bottom:10px;
 	padding-top:10px;
@@ -3187,6 +3177,7 @@ a.a_destaque_tut_ana:hover {
 	background-color:#a74dc3;
 	vertical-align: top;
 	margin-right: 10px;
+	margin-top:30px;
 	text-align: left;
 	padding-bottom:10px;
 	padding-top:10px;
@@ -3210,7 +3201,7 @@ a.a_tut_ana:hover {
 a.tutorial_seo_prox_topico {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotut.png);
 	color:#ffffff;
@@ -3220,7 +3211,7 @@ a.tutorial_seo_prox_topico {
 a.tutorial_seo_prox_topico:hover {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotuthover.png);
 	color:#ffffff;
@@ -3230,7 +3221,7 @@ a.tutorial_seo_prox_topico:hover {
 a.tutorial_seo_prox_topico:active {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotutactive.png);
 	color:#2062af;
@@ -3597,7 +3588,6 @@ p.destaque_ana_adw {
 	background-color:#9c9a00;
 	vertical-align: top;
 	margin-right: 10px;
-	margin-bottom:30px;
 	text-align: left;
 	padding-bottom:10px;
 	padding-top:10px;
@@ -3621,6 +3611,7 @@ a.a_destaque_tut_seo:hover {
 	background-color:#b5bf00;
 	vertical-align: top;
 	margin-right: 10px;
+	margin-top:30px;
 	text-align: left;
 	padding-bottom:10px;
 	padding-top:10px;
@@ -3644,7 +3635,7 @@ a.a_tut_adw:hover {
 a.tutorial_seo_prox_topico {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotut.png);
 	color:#ffffff;
@@ -3654,7 +3645,7 @@ a.tutorial_seo_prox_topico {
 a.tutorial_seo_prox_topico:hover {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotuthover.png);
 	color:#ffffff;
@@ -3664,7 +3655,7 @@ a.tutorial_seo_prox_topico:hover {
 a.tutorial_seo_prox_topico:active {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotutactive.png);
 	color:#2062af;
@@ -4031,7 +4022,6 @@ p.destaque_faq_adw {
 	background-color:#ee8422;
 	vertical-align: top;
 	margin-right: 10px;
-	margin-bottom:30px;
 	text-align: left;
 	padding-bottom:10px;
 	padding-top:10px;
@@ -4055,6 +4045,7 @@ a.a_destaque_tut_soc:hover {
 	background-color:#e4943d;
 	vertical-align: top;
 	margin-right: 10px;
+	margin-top:30px;
 	text-align: left;
 	padding-bottom:10px;
 	padding-top:10px;
@@ -4078,7 +4069,7 @@ a.a_tut_soc:hover {
 a.tutorial_seo_prox_topico {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotut.png);
 	color:#ffffff;
@@ -4088,7 +4079,7 @@ a.tutorial_seo_prox_topico {
 a.tutorial_seo_prox_topico:hover {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotuthover.png);
 	color:#ffffff;
@@ -4098,7 +4089,7 @@ a.tutorial_seo_prox_topico:hover {
 a.tutorial_seo_prox_topico:active {
 	text-decoration:none;
 	display:block;
-	width:590px;
+	width:597px;
 	height:55px;
 	background:url(../imagens/proximotutactive.png);
 	color:#2062af;
@@ -4385,22 +4376,21 @@ p.destaque_faq_soc {
 	height: 31px;
 	display: inline-block;
 	z-index: 5;
-	text-align: left;
-	margin-bottom:10px;
+	text-align: left
 }
 #menu_tutorial {
 	background: url(../imagens/menu_hover.png);
 	width: 555px;
 	height: 31px;
 	display: inline-block;
-	z-index: 5;
+	z-index: 5
 }
 ul.menu_tutorial_tabs {
 	display: table;
 	list-style: none outside none;
 	text-align: center;
 	margin: 0;
-	padding: 0;
+	padding: 0
 }
 ul.menu_tutorial_tabs a {
 	text-decoration: none;
@@ -4411,7 +4401,7 @@ ul.menu_tutorial_tabs a {
 	position: relative;
 	padding-left: 10px;
 	padding-right: 10px;
-	padding-top: 0;
+	padding-top: 0
 }
 ul.menu_tutorial_tabs li.mais { width: 130px }
 ul.menu_tutorial_tabs li.seo { width: 70px }
@@ -4424,11 +4414,11 @@ ul.menu_tutorial_tabs li {
 	list-style: none outside none;
 	position: relative;
 	width: 100px;
-	padding: 0;
+	padding: 0
 }
 ul.menu_tutorial_tabs a.espaco {
 	padding-top: 5px;
-	height: 25px;
+	height: 25px
 }
 ul.menu_tutorial_tabs a.espaco_tut:hover { background:url(../imagens/tutgooglehover.png) !important; }
 ul.menu_tutorial_tabs a.espaco_soc:hover { background:url(../imagens/tutsochover.png) !important; }
@@ -4460,7 +4450,7 @@ li.menu_tutorial_separador {
 	padding-left: 10px !important;
 	padding-right: 0 !important;
 	position: relative;
-	margin: 0;
+	margin: 0
 }
 #menu_tutorial ul.dropdown li a {
 	display: block;
@@ -4518,7 +4508,7 @@ div.rating-cancel, div.star-rating {
 	cursor:pointer;
 	display:block;
 	background:transparent;
-	overflow:hidden;
+	overflow:hidden
 }
 div.rating-cancel, div.rating-cancel a { background:url(../imagens/delete.gif) no-repeat 0 -16px }
 div.star-rating, div.star-rating a { background:url(../imagens/star.gif) no-repeat 0 0px }
@@ -4527,7 +4517,7 @@ div.rating-cancel a, div.star-rating a {
 	width:16px;
 	height:100%;
 	background-position:0 0px;
-	border:0;
+	border:0
 }
 div.star-rating-on a { background-position:0 -16px!important }
 div.star-rating-hover a { background-position:0 -32px }
