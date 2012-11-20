@@ -2343,10 +2343,15 @@ a.a_nm:active {
 	margin: 0 auto;
 }
 .servicos_header .menu_servico {
-	background:url(../imagens/funfo_menu_servicos.png) no-repeat;
+	background:url(../imagens/fundo_banner_servico.png) no-repeat;
 	display:inline-block;
 	width:218px;
-	height:156px;
+	height:701px;
+}
+.servico_content{
+width: 200px;
+margin-left: 8px;
+display: inline-table;
 }
 .adw_icone {
 	background:url(../imagens/adw_servicos.png) no-repeat;
